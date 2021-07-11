@@ -1,0 +1,29 @@
+What is Git and how is it different than Github
+
+Git is an open-source, version control tool. Version control system is basically a tool for managing changes to your 
+codebase in a way that allows for these same changes to be tracked over time, and allows working with others much
+easier because it is all in a central place. Github is a platform used to save and store your code and makes 
+tools which integrate with git. Github is used to collaborate with others. The difference between the two is that you 
+do not need GitHub to use git, but it does not work the other way around, therefore you cannot use Github without using git.
+Github is also not the only platform that can be used with git, there are many others such as BitBucket, GitLab, etc.
+
+Why use the terminal
+
+It is important to learn to use the terminal because most computer users interact with the computer through the Graphical User Interface
+(GUI). A gui is really just a visualization of the set of commands that are sent to your computer. But when using the terminal, you
+can speak "face to face" to the computer. It is also more efficient than working with GUIs especially when it comes to creating file 
+structures.
+
+Explain 3 benefits of version control in your own words
+
+• History - One of the benefits of version control is having the ability to have your changes stored, and being able to revert
+to that change, or see the different changes across one document. As a programmer, we make mistakes all the time, and having the
+ability to go back in case of any mistake is very helpful. It's also very helpful to compare changes, in case you have run into 
+a bug and you want to compare to the last change you have made.
+
+• Work with others - Another benefit of version control, is having the ability to work with others, as this makes it much easier to
+work on projects, it allows others to collaborate better and watch for any overwritting of code, and if there is any overwritting of code,
+that is why, history, again becomes very helpful.
+
+• Work remote - The best benefit of all, is having the ability to work wherever you are and not be constrained to one device. Both git and Github
+make this very easy, and this is very helpful in case a laptop breaks/malfunctions, and so work is not completely lost. 
