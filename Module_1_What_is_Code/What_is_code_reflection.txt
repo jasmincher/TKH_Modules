@@ -1,0 +1,70 @@
+﻿Jasmin Hernandez
+
+
+In your own words, what is a computer really doing whenever you type a letter on a
+keyboard? (150 words max)
+
+
+Once a computer gets the signal from the keyboard, the computer has to pull the image of that specified letter out of its memory, as part of a font, a letter that is made up of lines and circles. 
+
+
+In your own words, how do computers use input and output to create experiences? (250
+words max)
+
+
+Computers use input and output to create experiences by changing the whole way a user interacts with software, it can make it more user friendly and for coders this also makes writing code easier and a much better experience. Unlike before where you’d had to put holes in punch cards, now, input and output create a much user friendly experience for everybody.
+
+
+Explain why software products are essentially “infinitely reproducible nothings.” (150
+words max)
+
+
+Software products are essentially “infinitely reproducible nothings” because the demand for these software products are never ending, and ultimately are becoming cheaper and free for some. 
+
+
+Explain in your own words how code becomes software. (150 words max)
+
+
+Code has to go through a compiler so it can be read. A compiler is software that takes the symbols you typed into a file and transforms them into lower-level instructions. Code also has to be made into a function. A combination of many functions is what ultimately becomes software. 
+
+
+Explain “algorithms” in your own words. (150 words max)
+
+
+An algorithm is used to solve a problem, in programming an algorithm can be translated into a function that can be called when a software is executed. 
+
+
+Explain the DRY principle. (100 words max)
+
+
+The DRY principle stands for Don’t Repeat Yourself, meaning you should name things once, do things once, create a function once, and let the computer repeat itself. Although this is ideal, most times this is very hard to follow by coders, because coders are humans, and we make mistakes, and it’s also very hard to make unique names, create unique functions, and in general do things once, because we as humans tend to want to follow a pattern.
+
+
+In your own words, what is object-oriented programming? (100 words max)
+
+Object oriented programming is a filing system for code, it is based on the concept that all things can be objects. 
+
+
+In your own words explain data and how it relates to code. (100 Words max)
+
+
+Data relates to code in all ways, as data can be used in code all the time and/or data can be manipulated with code. Data can be manipulated, shared, and used through databases. There are many databases nowadays, varying from PostgreSQL, MySQL, firebase, and many more. Data in code is very powerful, and many popular websites wouldn’t be anything if it wasn’t for the data and the databases that are backing it up.
+
+
+What is a framework? (150 words max)
+
+
+A framework is software that essentially helps coders save time, by creating this software that will help in a specific language (depending on the framework you are using) and it can sometimes anticipate problems you may run into. 
+
+
+What is debugging? (150 words max)
+
+
+Debugging is going back to your code, and trying to figure out where your error(s) may be coming from. Debugging can be done in several ways, whether that is console.log lines of code, removing lines of code, or other methods. The point of debugging is to get rid of the “bug” that is existing in your code, in this case the bug or bugs, are the errors that are causing your code to not work, or not work properly.
+
+
+Now, with more of an understanding of what code is, why do you want to learn how to
+code? (500 words max)
+
+
+I want to learn to code because ever since I was introduced to a computer, I’ve always been interested in how everything worked, by everything, I meant websites, games, and everything I interacted with, in terms of software and the web. I gained a large interest in web development when I was younger, and without any knowledge on HTML or CSS I would build out small profiles. It was later on in high school and in college when I gained more skills and finally was able to get more insight of what I was actually doing, but even then I wanted to build my skills and learn more on how to code. I think coding is very powerful, and for me it would be so great to be able to confidently say I can build my own site that is a shop, or my own site that does this with data, or shows this and does that. I think coding, although can be difficult at times, is just another skill that needs to be strengthened and practiced overtime.
