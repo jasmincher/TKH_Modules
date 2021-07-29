@@ -1,0 +1,245 @@
+@import url("https://fonts.googleapis.com/css2?family=Gowun+Dodum&family=WindSong:wght@500&display=swap");
+
+:root {
+  --background-color: rgb(236, 218, 238);
+  --on-hover-links: rgb(122, 122, 122);
+  --input-backgrounds: rgb(238, 238, 238);
+  --body-font: "Gowun Dodum", sans-serif;
+}
+
+body {
+  margin: 0;
+  background-color: var(--background-color);
+  font-family: var(--body-font);
+}
+
+/********** start of index html styles **********/
+
+body .banner .title h1 {
+  font-family: "WindSong", cursive;
+}
+
+.banner {
+  display: flex;
+  padding-left: 60px;
+  background-color: rgb(0, 0, 0);
+  color: white;
+}
+
+.banner ul {
+  margin-top: 35px;
+}
+
+.banner li {
+  display: inline;
+  margin: 10px;
+}
+
+.banner a {
+  text-decoration: none;
+}
+
+.banner a:visited {
+  color: white;
+}
+
+.banner a:hover {
+  color: var(--on-hover-links);
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 5fr 4fr;
+  grid-template-areas:
+    "about-me about-me"
+    "goals skills"
+    "projects projects"
+    "contact contact";
+  gap: 30px;
+  margin: 60px;
+}
+
+.about-me,
+.goals,
+.skills,
+.projects,
+.contact-form {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.about-me {
+  grid-area: about-me;
+}
+
+.profile {
+  display: grid;
+  grid-template-areas:
+    "img text"
+    "img social";
+}
+.about-me-text {
+  grid-area: text;
+  align-self: flex-end;
+}
+
+.social-media {
+  grid-area: social;
+  display: flex;
+  align-self: flex-start;
+}
+
+.social-media li {
+  list-style: none;
+}
+
+.social-media a,
+.social-media a:visited {
+  color: black;
+  text-decoration: none;
+}
+
+.social-media a:hover {
+  color: var(--on-hover-links);
+}
+
+.social-media ul:first-child {
+  padding: 0;
+}
+
+.goals {
+  grid-area: goals;
+}
+
+.skills {
+  grid-area: skills;
+}
+
+.projects {
+  grid-area: projects;
+}
+
+.contact-form {
+  grid-area: contact;
+}
+
+.profile-pic {
+  grid-area: img;
+  justify-self: center;
+}
+
+.about-me #about-me-pic {
+  width: 230px;
+  padding: 20px;
+}
+
+.projects {
+  display: grid;
+  grid-template-areas:
+    "my-projects . ."
+    "project-img project-img link"
+    "project-img project-img desc";
+  padding: 0 20px 60px 20px;
+}
+
+.projects .my-projects {
+  grid-area: my-projects;
+}
+
+#project-img {
+  width: 550px;
+  height: 335px;
+  grid-area: project-img;
+  justify-self: center;
+}
+
+#project-link {
+  grid-area: link;
+  justify-self: start;
+  align-self: flex-end;
+  font-style: italic;
+}
+
+a#project-link,
+a#project-link:visited {
+  color: black;
+  text-decoration: none;
+}
+
+a#project-link:hover {
+  color: var(--on-hover-links);
+}
+.project-desc {
+  grid-area: desc;
+  justify-self: start;
+}
+
+.contact-form form {
+  display: grid;
+  grid-template-areas:
+    "lname lemail"
+    "name email"
+    "lmessage lmessage"
+    "message message"
+    "submit submit";
+  gap: 20px;
+  margin: 0 50px;
+  margin-bottom: 20px;
+}
+
+.contact-form label[for="name"] {
+  grid-area: lname;
+}
+
+.contact-form label[for="email"] {
+  grid-area: lemail;
+}
+
+.contact-form input[name="name"] {
+  grid-area: name;
+}
+
+.contact-form input[name="email"] {
+  grid-area: email;
+}
+
+.contact-form label[for="message"] {
+  grid-area: lmessage;
+}
+
+.contact-form input[name="message"] {
+  grid-area: message;
+  height: 100px;
+}
+
+.contact-form input {
+  border-radius: 5px;
+  padding: 5px;
+  border: none;
+  background: var(--input-backgrounds);
+}
+
+.contact-form input[type="submit"] {
+  grid-area: submit;
+  width: 30%;
+  margin: auto;
+  background: black;
+  color: white;
+}
+
+.footer {
+  margin-left: 60px;
+  margin-bottom: 30px;
+}
+
+/*********** end of index html styles *************/
+
+.jobs,
+.education {
+  background: white;
+  margin: 60px;
+  border-radius: 10px;
+  padding: 20px;
+}
+/************* Start of Resume Styles *************/
